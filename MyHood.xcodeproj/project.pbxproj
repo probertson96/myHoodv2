@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD71BD391DF52ACD00861F15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD71BD381DF52ACD00861F15 /* AppDelegate.swift */; };
+		CD71BD3B1DF52ACD00861F15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD71BD3A1DF52ACD00861F15 /* ViewController.swift */; };
+		CD71BD3E1DF52ACD00861F15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD71BD3C1DF52ACD00861F15 /* Main.storyboard */; };
+		CD71BD401DF52ACD00861F15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD71BD3F1DF52ACD00861F15 /* Assets.xcassets */; };
+		CD71BD431DF52ACD00861F15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD71BD411DF52ACD00861F15 /* LaunchScreen.storyboard */; };
+		CD71BD4E1DF52ACD00861F15 /* MyHoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD71BD4D1DF52ACD00861F15 /* MyHoodTests.swift */; };
+		CD71BD591DF52ACD00861F15 /* MyHoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD71BD581DF52ACD00861F15 /* MyHoodUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD71BD4A1DF52ACD00861F15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD71BD2D1DF52ACD00861F15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD71BD341DF52ACD00861F15;
+			remoteInfo = MyHood;
+		};
+		CD71BD551DF52ACD00861F15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD71BD2D1DF52ACD00861F15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD71BD341DF52ACD00861F15;
+			remoteInfo = MyHood;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD71BD351DF52ACD00861F15 /* MyHood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyHood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD71BD381DF52ACD00861F15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD71BD3A1DF52ACD00861F15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD71BD3D1DF52ACD00861F15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD71BD3F1DF52ACD00861F15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD71BD421DF52ACD00861F15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD71BD441DF52ACD00861F15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD71BD491DF52ACD00861F15 /* MyHoodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyHoodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD71BD4D1DF52ACD00861F15 /* MyHoodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHoodTests.swift; sourceTree = "<group>"; };
+		CD71BD4F1DF52ACD00861F15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD71BD541DF52ACD00861F15 /* MyHoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyHoodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD71BD581DF52ACD00861F15 /* MyHoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHoodUITests.swift; sourceTree = "<group>"; };
+		CD71BD5A1DF52ACD00861F15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD71BD321DF52ACD00861F15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD71BD461DF52ACD00861F15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD71BD511DF52ACD00861F15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD71BD2C1DF52ACD00861F15 = {
+			isa = PBXGroup;
+			children = (
+				CD71BD371DF52ACD00861F15 /* MyHood */,
+				CD71BD4C1DF52ACD00861F15 /* MyHoodTests */,
+				CD71BD571DF52ACD00861F15 /* MyHoodUITests */,
+				CD71BD361DF52ACD00861F15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD71BD361DF52ACD00861F15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD71BD351DF52ACD00861F15 /* MyHood.app */,
+				CD71BD491DF52ACD00861F15 /* MyHoodTests.xctest */,
+				CD71BD541DF52ACD00861F15 /* MyHoodUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD71BD371DF52ACD00861F15 /* MyHood */ = {
+			isa = PBXGroup;
+			children = (
+				CD71BD381DF52ACD00861F15 /* AppDelegate.swift */,
+				CD71BD3A1DF52ACD00861F15 /* ViewController.swift */,
+				CD71BD3C1DF52ACD00861F15 /* Main.storyboard */,
+				CD71BD3F1DF52ACD00861F15 /* Assets.xcassets */,
+				CD71BD411DF52ACD00861F15 /* LaunchScreen.storyboard */,
+				CD71BD441DF52ACD00861F15 /* Info.plist */,
+			);
+			path = MyHood;
+			sourceTree = "<group>";
+		};
+		CD71BD4C1DF52ACD00861F15 /* MyHoodTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD71BD4D1DF52ACD00861F15 /* MyHoodTests.swift */,
+				CD71BD4F1DF52ACD00861F15 /* Info.plist */,
+			);
+			path = MyHoodTests;
+			sourceTree = "<group>";
+		};
+		CD71BD571DF52ACD00861F15 /* MyHoodUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD71BD581DF52ACD00861F15 /* MyHoodUITests.swift */,
+				CD71BD5A1DF52ACD00861F15 /* Info.plist */,
+			);
+			path = MyHoodUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD71BD341DF52ACD00861F15 /* MyHood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD71BD5D1DF52ACD00861F15 /* Build configuration list for PBXNativeTarget "MyHood" */;
+			buildPhases = (
+				CD71BD311DF52ACD00861F15 /* Sources */,
+				CD71BD321DF52ACD00861F15 /* Frameworks */,
+				CD71BD331DF52ACD00861F15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyHood;
+			productName = MyHood;
+			productReference = CD71BD351DF52ACD00861F15 /* MyHood.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD71BD481DF52ACD00861F15 /* MyHoodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD71BD601DF52ACD00861F15 /* Build configuration list for PBXNativeTarget "MyHoodTests" */;
+			buildPhases = (
+				CD71BD451DF52ACD00861F15 /* Sources */,
+				CD71BD461DF52ACD00861F15 /* Frameworks */,
+				CD71BD471DF52ACD00861F15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD71BD4B1DF52ACD00861F15 /* PBXTargetDependency */,
+			);
+			name = MyHoodTests;
+			productName = MyHoodTests;
+			productReference = CD71BD491DF52ACD00861F15 /* MyHoodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD71BD531DF52ACD00861F15 /* MyHoodUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD71BD631DF52ACD00861F15 /* Build configuration list for PBXNativeTarget "MyHoodUITests" */;
+			buildPhases = (
+				CD71BD501DF52ACD00861F15 /* Sources */,
+				CD71BD511DF52ACD00861F15 /* Frameworks */,
+				CD71BD521DF52ACD00861F15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD71BD561DF52ACD00861F15 /* PBXTargetDependency */,
+			);
+			name = MyHoodUITests;
+			productName = MyHoodUITests;
+			productReference = CD71BD541DF52ACD00861F15 /* MyHoodUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD71BD2D1DF52ACD00861F15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Patrick Robertson";
+				TargetAttributes = {
+					CD71BD341DF52ACD00861F15 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 6LU55XC4V4;
+						ProvisioningStyle = Automatic;
+					};
+					CD71BD481DF52ACD00861F15 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 6LU55XC4V4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD71BD341DF52ACD00861F15;
+					};
+					CD71BD531DF52ACD00861F15 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 6LU55XC4V4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD71BD341DF52ACD00861F15;
+					};
+				};
+			};
+			buildConfigurationList = CD71BD301DF52ACD00861F15 /* Build configuration list for PBXProject "MyHood" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD71BD2C1DF52ACD00861F15;
+			productRefGroup = CD71BD361DF52ACD00861F15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD71BD341DF52ACD00861F15 /* MyHood */,
+				CD71BD481DF52ACD00861F15 /* MyHoodTests */,
+				CD71BD531DF52ACD00861F15 /* MyHoodUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD71BD331DF52ACD00861F15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD71BD431DF52ACD00861F15 /* LaunchScreen.storyboard in Resources */,
+				CD71BD401DF52ACD00861F15 /* Assets.xcassets in Resources */,
+				CD71BD3E1DF52ACD00861F15 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD71BD471DF52ACD00861F15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD71BD521DF52ACD00861F15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD71BD311DF52ACD00861F15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD71BD3B1DF52ACD00861F15 /* ViewController.swift in Sources */,
+				CD71BD391DF52ACD00861F15 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD71BD451DF52ACD00861F15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD71BD4E1DF52ACD00861F15 /* MyHoodTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD71BD501DF52ACD00861F15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD71BD591DF52ACD00861F15 /* MyHoodUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD71BD4B1DF52ACD00861F15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD71BD341DF52ACD00861F15 /* MyHood */;
+			targetProxy = CD71BD4A1DF52ACD00861F15 /* PBXContainerItemProxy */;
+		};
+		CD71BD561DF52ACD00861F15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD71BD341DF52ACD00861F15 /* MyHood */;
+			targetProxy = CD71BD551DF52ACD00861F15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD71BD3C1DF52ACD00861F15 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD71BD3D1DF52ACD00861F15 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD71BD411DF52ACD00861F15 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD71BD421DF52ACD00861F15 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD71BD5B1DF52ACD00861F15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD71BD5C1DF52ACD00861F15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD71BD5E1DF52ACD00861F15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6LU55XC4V4;
+				INFOPLIST_FILE = MyHood/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = patrickrobertson.MyHood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CD71BD5F1DF52ACD00861F15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6LU55XC4V4;
+				INFOPLIST_FILE = MyHood/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = patrickrobertson.MyHood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CD71BD611DF52ACD00861F15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6LU55XC4V4;
+				INFOPLIST_FILE = MyHoodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = patrickrobertson.MyHoodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyHood.app/MyHood";
+			};
+			name = Debug;
+		};
+		CD71BD621DF52ACD00861F15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6LU55XC4V4;
+				INFOPLIST_FILE = MyHoodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = patrickrobertson.MyHoodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyHood.app/MyHood";
+			};
+			name = Release;
+		};
+		CD71BD641DF52ACD00861F15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6LU55XC4V4;
+				INFOPLIST_FILE = MyHoodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = patrickrobertson.MyHoodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MyHood;
+			};
+			name = Debug;
+		};
+		CD71BD651DF52ACD00861F15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6LU55XC4V4;
+				INFOPLIST_FILE = MyHoodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = patrickrobertson.MyHoodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MyHood;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD71BD301DF52ACD00861F15 /* Build configuration list for PBXProject "MyHood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD71BD5B1DF52ACD00861F15 /* Debug */,
+				CD71BD5C1DF52ACD00861F15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD71BD5D1DF52ACD00861F15 /* Build configuration list for PBXNativeTarget "MyHood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD71BD5E1DF52ACD00861F15 /* Debug */,
+				CD71BD5F1DF52ACD00861F15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD71BD601DF52ACD00861F15 /* Build configuration list for PBXNativeTarget "MyHoodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD71BD611DF52ACD00861F15 /* Debug */,
+				CD71BD621DF52ACD00861F15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD71BD631DF52ACD00861F15 /* Build configuration list for PBXNativeTarget "MyHoodUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD71BD641DF52ACD00861F15 /* Debug */,
+				CD71BD651DF52ACD00861F15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD71BD2D1DF52ACD00861F15 /* Project object */;
+}
