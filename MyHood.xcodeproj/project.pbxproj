@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD2230011DF5313F0046C6B1 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2230001DF5313F0046C6B1 /* PostCell.swift */; };
+		CD2230041DF641BC0046C6B1 /* AddPostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2230031DF641BC0046C6B1 /* AddPostVC.swift */; };
+		CD2230071DF647D80046C6B1 /* Data Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2230061DF647D80046C6B1 /* Data Service.swift */; };
 		CD71BD391DF52ACD00861F15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD71BD381DF52ACD00861F15 /* AppDelegate.swift */; };
 		CD71BD3B1DF52ACD00861F15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD71BD3A1DF52ACD00861F15 /* ViewController.swift */; };
 		CD71BD3E1DF52ACD00861F15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD71BD3C1DF52ACD00861F15 /* Main.storyboard */; };
@@ -14,6 +17,7 @@
 		CD71BD431DF52ACD00861F15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD71BD411DF52ACD00861F15 /* LaunchScreen.storyboard */; };
 		CD71BD4E1DF52ACD00861F15 /* MyHoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD71BD4D1DF52ACD00861F15 /* MyHoodTests.swift */; };
 		CD71BD591DF52ACD00861F15 /* MyHoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD71BD581DF52ACD00861F15 /* MyHoodUITests.swift */; };
+		CD71BD681DF52BDE00861F15 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD71BD671DF52BDE00861F15 /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD2230001DF5313F0046C6B1 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		CD2230031DF641BC0046C6B1 /* AddPostVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPostVC.swift; sourceTree = "<group>"; };
+		CD2230061DF647D80046C6B1 /* Data Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data Service.swift"; sourceTree = "<group>"; };
 		CD71BD351DF52ACD00861F15 /* MyHood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyHood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD71BD381DF52ACD00861F15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD71BD3A1DF52ACD00861F15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,7 @@
 		CD71BD541DF52ACD00861F15 /* MyHoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyHoodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD71BD581DF52ACD00861F15 /* MyHoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHoodUITests.swift; sourceTree = "<group>"; };
 		CD71BD5A1DF52ACD00861F15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD71BD671DF52BDE00861F15 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +82,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD2230021DF641970046C6B1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CD2230031DF641BC0046C6B1 /* AddPostVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		CD2230051DF647C80046C6B1 /* Data Service */ = {
+			isa = PBXGroup;
+			children = (
+				CD2230061DF647D80046C6B1 /* Data Service.swift */,
+			);
+			name = "Data Service";
+			sourceTree = "<group>";
+		};
 		CD71BD2C1DF52ACD00861F15 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +121,10 @@
 		CD71BD371DF52ACD00861F15 /* MyHood */ = {
 			isa = PBXGroup;
 			children = (
+				CD2230051DF647C80046C6B1 /* Data Service */,
+				CD2230021DF641970046C6B1 /* Controller */,
+				CD71BD691DF5307F00861F15 /* View */,
+				CD71BD661DF52BCC00861F15 /* Model */,
 				CD71BD381DF52ACD00861F15 /* AppDelegate.swift */,
 				CD71BD3A1DF52ACD00861F15 /* ViewController.swift */,
 				CD71BD3C1DF52ACD00861F15 /* Main.storyboard */,
@@ -123,6 +151,22 @@
 				CD71BD5A1DF52ACD00861F15 /* Info.plist */,
 			);
 			path = MyHoodUITests;
+			sourceTree = "<group>";
+		};
+		CD71BD661DF52BCC00861F15 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CD71BD671DF52BDE00861F15 /* Post.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CD71BD691DF5307F00861F15 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CD2230001DF5313F0046C6B1 /* PostCell.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,8 +306,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD71BD681DF52BDE00861F15 /* Post.swift in Sources */,
 				CD71BD3B1DF52ACD00861F15 /* ViewController.swift in Sources */,
+				CD2230071DF647D80046C6B1 /* Data Service.swift in Sources */,
+				CD2230041DF641BC0046C6B1 /* AddPostVC.swift in Sources */,
 				CD71BD391DF52ACD00861F15 /* AppDelegate.swift in Sources */,
+				CD2230011DF5313F0046C6B1 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +562,7 @@
 				CD71BD5F1DF52ACD00861F15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD71BD601DF52ACD00861F15 /* Build configuration list for PBXNativeTarget "MyHoodTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +571,7 @@
 				CD71BD621DF52ACD00861F15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD71BD631DF52ACD00861F15 /* Build configuration list for PBXNativeTarget "MyHoodUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +580,7 @@
 				CD71BD651DF52ACD00861F15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
